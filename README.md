@@ -139,7 +139,7 @@ docker compose up -d
 - Shut down the project and rebuild cleanly with no cache as seen above
 - Run it with:
 ```bash
-docker compose -f compose.yml -f compose.linux.yml up
+docker compose -f compose.yml -f compose.linux.yml up -d
 ```
 
 ## API Reference
