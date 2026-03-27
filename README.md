@@ -135,6 +135,13 @@ docker compose up -d
 - Change `FRONTEND_PORT` or `BACKEND_PORT` in `.env`
 - Restart the containers after making changes
 
+**Permission problem on Linux with Docker run:**
+- Shut down the project and rebuild cleanly with no cache as seen above
+- Run it with:
+```bash
+docker compose -f compose.yml -f compose.linux.yml up -d
+```
+
 ## API Reference
 
 ### Health Check
